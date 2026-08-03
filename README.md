@@ -38,15 +38,6 @@ The dataset includes information such as:
 - Director
 - Lead actor
 
-## Tools and Libraries
-
-This project was completed using Python and the following libraries:
-
-- pandas
-- numpy
-- matplotlib
-
-
 ## Data Cleaning and Preparation
 
 The dataset was first loaded into a pandas DataFrame and inspected using `.head()`, `.info()`, `.describe()`, `.dtypes`, and missing-value checks.
@@ -240,8 +231,6 @@ The results show that the definition of the “best” director depends on the m
 
 ## Limitations
 
-Some movie titles, director names, and actor names in the dataset appear synthetic or anonymized. In addition, some variables appear to have upper limits, such as budget and ROI values. Therefore, the findings should be interpreted as exploratory patterns within this dataset rather than exact real-world conclusions about the movie industry.
-
 The analysis is mainly descriptive and based on correlations. Correlation does not prove causation, so the results should not be interpreted as evidence that budget alone causes higher revenue, profit, or ROI.
 
 For genre analysis, movies with multiple genres were split into separate rows. This means one movie can contribute to more than one genre category. This approach is appropriate for genre-level analysis, but it should be considered when interpreting total counts, total revenue, and total profit by genre.
@@ -249,8 +238,6 @@ For genre analysis, movies with multiple genres were split into separate rows. T
 For director analysis, the dataset contains unusually high movie counts for individual directors. Therefore, the director ranking should be interpreted as an exploratory analysis of the dataset rather than a real-world ranking of actual directors.
 
 ## Conclusion
-
-This project demonstrates how Python can be used for exploratory data analysis, including data cleaning, feature engineering, grouping, aggregation, correlation analysis, and visualization.
 
 The findings show that movie production and total box office revenue increased over time, while average movie ratings remained stable. Higher production budgets were strongly associated with higher global revenue and profit, but not with higher ROI.
 
