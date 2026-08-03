@@ -285,6 +285,3 @@ Genre analysis showed that Drama, Comedy, and Action dominated in production vol
 
 Overall, the project highlights the importance of analyzing financial success from multiple perspectives, including revenue, profit, and return on investment.
 
-## Topics
-
-python, pandas, matplotlib, exploratory-data-analysis, data-analysis, data-visualization, movie-analysis, kaggle-dataset, portfolio-project
