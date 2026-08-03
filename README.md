@@ -17,7 +17,7 @@ The analysis focuses on four main questions:
 
 The dataset used in this project is the TMDB Movie Dataset from Kaggle.
 
-Dataset source: Kaggle - TMDB Movie Dataset for Analytics and Visualization
+Dataset source: Kaggle - TMDB Movie Dataset for Analytics and Visualization (https://www.kaggle.com/datasets/mjshubham21/movie-dataset-for-analytics-and-visualization)
 
 The dataset includes information such as:
 
