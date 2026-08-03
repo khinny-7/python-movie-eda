@@ -46,34 +46,6 @@ This project was completed using Python and the following libraries:
 - numpy
 - matplotlib
 
-## Project Structure
-
-```text
-movie-eda-python/
-│
-├── data/
-│   ├── tmdb_movies.csv
-│   └── cleaned_movie_dataset.csv
-│
-├── images/
-│   ├── movies_over_time.png
-│   ├── total_revenue_over_time.png
-│   ├── average_revenue_over_time.png
-│   ├── imdb_rating_over_time.png
-│   ├── rotten_tomatoes_over_time.png
-│   ├── budget_vs_revenue.png
-│   ├── budget_vs_profit.png
-│   ├── budget_vs_roi.png
-│   ├── genre_production_trends.png
-│   ├── genre_profit_trends.png
-│   ├── top_directors_total_profit.png
-│   ├── top_directors_average_profit.png
-│   └── top_directors_roi.png
-│
-├── movie_eda_analysis.ipynb
-├── README.md
-└── requirements.txt
-```
 
 ## Data Cleaning and Preparation
 
@@ -243,27 +215,28 @@ The overall director ranking combined IMDb rating, Rotten Tomatoes score, total 
 
 The results show that the definition of the “best” director depends on the metric used. Some directors perform better in ratings, while others perform better in total profit, average profit, or ROI.
 
+
 ## Visualizations
 
-The project includes the following visualizations:
+### Movie Production Over Time
 
-- Number of movies released over time
-- Total global box office revenue over time
-- Average global box office revenue over time
-- Average IMDb rating over time
-- Average Rotten Tomatoes score over time
-- Budget vs global box office revenue
-- Budget vs profit
-- Budget vs ROI
-- Top genres by total profit
-- Top genres by average ROI
-- Genre production trends over time
-- Genre profit trends over time
-- Top directors by IMDb rating
-- Top directors by Rotten Tomatoes score
-- Top directors by total profit
-- Top directors by average profit
-- Top directors by average ROI
+![Number of Movies Released Over Time](images/num_movies_released.png)
+
+### Budget vs Global Revenue
+
+![Budget vs Global Revenue](images/budget_vs_global_revenue.png)
+
+### Top Genres by Total Profit
+
+![Top Genres by Total Profit](images/top_10_genres_total_profit.png)
+
+### Genre Profit Trends Over Time
+
+![Genre Profit Trends Over Time](images/top_genres_profit_trend.png)
+
+### Top Directors by Total Profit
+
+![Top Directors by Total Profit](images/top_directors_total_profit.png)
 
 ## Limitations
 
