@@ -285,34 +285,6 @@ Genre analysis showed that Drama, Comedy, and Action dominated in production vol
 
 Overall, the project highlights the importance of analyzing financial success from multiple perspectives, including revenue, profit, and return on investment.
 
-## How to Run This Project
-
-1. Clone this repository or download the files.
-2. Install the required Python libraries.
-3. Open the Jupyter Notebook file.
-4. Run the notebook cells from top to bottom.
-
-Install the required libraries using:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Requirements
-
-The main Python libraries used in this project are:
-
-```text
-pandas
-numpy
-matplotlib
-jupyter
-```
-
-## Repository Description
-
-Exploratory data analysis of movie industry trends, revenue, genres, and directors using Python.
-
 ## Topics
 
 python, pandas, matplotlib, exploratory-data-analysis, data-analysis, data-visualization, movie-analysis, kaggle-dataset, portfolio-project
